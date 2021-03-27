@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>3d Card Layer</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <h1 class="header">Create Account</h1>
+        <div class="login-img">
+          <img class="img-fluid" src="./assets/img/img.jpeg" alt="" />
+        </div>
+        <form
+          action="#"
+          class="login_form"
+          name="form"
+          onsubmit="return validated()"
+        >
+          <div class="label">User Name</div>
+          <input autocomplete="off" type="text" name="email" />
+          <div id="email_error">Email or Phone Number is required</div>
+          <div class="label label2">Email</div>
+          <input type="email" name="email" />
+          <div class="label label3">Password</div>
+          <input type="password" name="password" />
+          <div id="pass_error">Password is required</div>
+          <button type="submit">Register</button>
+        </form>
+
+        <div class="footer">
+          <p>Already a member?</p>
+          <p>Login</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
